@@ -1,0 +1,26 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://behypwjfqene2"]
+
+[ext_resource type="Shader" uid="uid://ryhywvblkhie" path="res://mx_rain.gdshader" id="1_km04s"]
+[ext_resource type="Texture2D" uid="uid://ok01os5brn7j" path="res://assets/textures/mx_atlas.png" id="2_orxdt"]
+
+[resource]
+shader = ExtResource("1_km04s")
+shader_parameter/atlas = ExtResource("2_orxdt")
+shader_parameter/glyph_is_dark_on_light = false
+shader_parameter/mirror_glyphs = true
+shader_parameter/glyph_size = 0.85
+shader_parameter/layers = 12
+shader_parameter/fly_speed = 0.1
+shader_parameter/near_depth = 0.5
+shader_parameter/far_depth = 7.0
+shader_parameter/sway = 3.0
+shader_parameter/roll = 0.08
+shader_parameter/grid_scale = 14.0
+shader_parameter/fall_speed = 7.0
+shader_parameter/trail_length = 16.0
+shader_parameter/column_density = 0.7
+shader_parameter/glyph_change_rate = 4.0
+shader_parameter/rain_color = Color(0, 1, 0.3, 1)
+shader_parameter/head_color = Color(0.8, 1, 0.85, 1)
+shader_parameter/brightness = 1.6
+shader_parameter/vignette = 0.6

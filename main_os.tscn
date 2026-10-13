@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://dumgxef6c8mur"]
+
+[ext_resource type="Script" uid="uid://odllwgoan5du" path="res://BootManager.gd" id="1_avt2f"]
+[ext_resource type="FontFile" uid="uid://cfhd04ntqhc43" path="res://assets/font/ShareTechMono-Regular.ttf" id="2_xd2k0"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_usv0l"]
+bg_color = Color(0, 0, 0, 1)
+
+[node name="BootScene" type="Control" unique_id=1335200083]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_avt2f")
+
+[node name="MainPanel" type="Panel" parent="." unique_id=1723407156]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_usv0l")
+
+[node name="Boot" type="RichTextLabel" parent="MainPanel" unique_id=889766930]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 1, 0, 1)
+theme_override_fonts/normal_font = ExtResource("2_xd2k0")
+theme_override_font_sizes/normal_font_size = 12
+scroll_following = true

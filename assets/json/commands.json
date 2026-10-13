@@ -1,0 +1,29 @@
+{
+  "help": {
+	"description": "Display all available commands"
+  },
+
+  "cls": {
+	"description": "Clear terminal window"
+  },
+
+  "start": {
+	"description": "Start a new game"
+  },
+
+  "load": {
+	"description": "Load a saved game"
+  },
+
+  "settings": {
+	"description": "Open settings menu"
+  },
+
+  "info": {
+	"description": "Display information about the game"
+  },
+
+  "quit": {
+	"description": "Exit LindOS"
+  }
+}
