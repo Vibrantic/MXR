@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="readme/dashboard.svg" alt="MXR dashboard" />
+  <img src="readme/dashboard.svg?v=1-0-1" alt="MXR dashboard" />
 </p>
 
 <p align="center">
