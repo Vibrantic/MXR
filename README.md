@@ -1,4 +1,4 @@
-# MXR
+<h1 align="center">MXR</h1>
 
 <table align="center">
   <thead>
@@ -27,175 +27,46 @@
   </tbody>
 </table>
 
----
+<p align="center">
+  <img src="readme/header.svg" alt="MXR status terminal" />
+</p>
 
-## About
+<p align="center">
+  <img src="readme/about.svg" alt="About" />
+</p>
 
-**MXR** is a terminal-based role-playing game set in a universe inspired by *The Matrix*.
+<p align="center">
+  <img src="readme/features.svg" alt="Features" />
+</p>
 
-You play as an **Operator** working for the mysterious resistance figure known as **ROGAN**. Once a small-time hacker, your life changed forever when you discovered the truth: the world you inhabit is nothing more than a carefully constructed simulation.
+<p align="center">
+  <img src="readme/story.svg" alt="Story" />
+</p>
 
-Operating through **LindOS**, a fictional operating system that combines the best aspects of Linux and Windows, you infiltrate networks, uncover secrets, complete missions, and search for individuals ready to awaken from the illusion surrounding them.
+<p align="center">
+  <img src="readme/lindos.svg" alt="LindOS" />
+</p>
 
-But the System watches everything.
+<p align="center">
+  <img src="readme/commands.svg" alt="Commands" />
+</p>
 
-Every connection leaves a trace.
+<p align="center">
+  <img src="readme/modding.svg" alt="Modding" />
+</p>
 
-Every action has consequences.
+<p align="center">
+  <img src="readme/status.svg" alt="Current status" />
+</p>
 
-And not everyone wants to be saved.
+<p align="center">
+  <img src="readme/screenshots.svg" alt="Screenshots" />
+</p>
 
----
+<p align="center">
+  <img src="readme/roadmap.svg" alt="Development roadmap" />
+</p>
 
-## Features
-
-- Terminal-driven gameplay
-- Retro-inspired LindOS desktop environment
-- Story-rich missions
-- Matrix-inspired cyberpunk universe
-- Branching narrative decisions
-- Hidden secrets and easter eggs
-- Modular mission system
-- Community-created content support
-- Persistent save system
-- Hacking and infiltration mechanics
-
----
-
-## Story
-
-Years ago you were nothing more than a criminal hacker.
-
-Then you met **ROGAN**.
-
-ROGAN revealed a truth hidden from nearly everyone: reality itself is a simulation maintained by powerful systems of control.
-
-Now you operate in the shadows, helping people awaken while evading the security systems designed to keep them trapped.
-
-Every mission brings you closer to uncovering the true nature of the System.
-
-Every discovery raises new questions.
-
-And somewhere beyond the code lies a truth few have ever seen.
-
----
-
-## LindOS
-
-LindOS is the primary interface used throughout MXR.
-
-Features include:
-
-- Terminal Interface
-- Virtual File System
-- Mission Board
-- Secure Messaging
-- Digital Archives
-- Network Scanner
-- Save Management
-- Developer-Friendly Modding Support
-
----
-
-## Commands
-
-```bash
-help                Display available commands
-cls                 Clear the terminal
-start               Start a new game
-load <save_name>    Load an existing save
-settings            Open settings
-info                Display game information
-quit                Exit LindOS
-```
-
----
-
-## Modding
-
-MXR is designed from the ground up to be modular.
-
-Future versions will allow players to create:
-
-- Custom Missions
-- Custom Story Campaigns
-- New Factions
-- New Characters
-- Additional LindOS Applications
-- Custom Events
-- Complete Total Conversions
-
-Most game content will be data-driven to allow community expansion without modifying the core game.
-
----
-
-## Current Status
-
-```text
-STATUS: ALPHA 0.1
-
-✔ Core Terminal Framework
-✔ Command System
-✔ LindOS Boot Sequence
-✔ BIOS & Boot Manager
-✔ Main Menu Terminal
-
-⬜ Mission System
-⬜ Save System
-⬜ Network Simulation
-⬜ Story Campaign
-⬜ Email System
-⬜ Modding Toolkit
-⬜ Achievement System
-```
-
----
-
-## Screenshots
-
-```text
-[Screenshots Coming Soon]
-```
-
----
-
-## Development Roadmap
-
-### Alpha 0.1
-- Terminal Framework
-- LindOS Main Menu
-- Boot Process Simulation
-
-### Alpha 0.2
-- Mission Framework
-- Save Management
-- Network Nodes
-
-### Alpha 0.3
-- Story Campaign
-- ROGAN Mission Chain
-- Secure Messaging
-
-### Beta
-- Modding Support
-- Multiple Campaigns
-- Expanded LindOS Applications
-
-### 1.0
-- Complete Story
-- Full Mission System
-- Community Content Support
-
----
-
-## Credits
-
-Created by **Vibrantic**
-
-Inspired by classic hacking games, cyberpunk fiction, and the ideas popularized by *The Matrix*.
-
----
-
-<p align="left">
-  <img src="terminal.svg" alt="Terminal transmission" width="640">
+<p align="center">
+  <img src="readme/credits.svg" alt="Credits" />
 </p>
