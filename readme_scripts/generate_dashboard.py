@@ -15,6 +15,7 @@ from xml.sax.saxutils import escape
 
 REPO = os.environ.get("GITHUB_REPOSITORY", "Vibrantic/MXR")
 OUT = Path(__file__).resolve().parent.parent / "readme" / "dashboard.svg"
+README = OUT.parent.parent / "README.md"
 
 W, H, TOP = 720, 330, 36
 FONT = "'Courier New', Consolas, 'DejaVu Sans Mono', monospace"
@@ -86,6 +87,18 @@ def render(stars, forks, watchers, date):
 '''
 
 
+def sync_readme(key):
+    """Point the README image at a versioned URL so GitHub's image cache refreshes."""
+    if not README.exists():
+        return
+    text = README.read_text(encoding="utf-8")
+    new = re.sub(r"readme/dashboard\.svg(\?v=[\w-]*)?",
+                 f"readme/dashboard.svg?v={key.replace(',', '-')}", text)
+    if new != text:
+        README.write_text(new, encoding="utf-8")
+        print("Updated README image URL")
+
+
 def main():
     try:
         counts = fetch_counts()
@@ -94,16 +107,20 @@ def main():
         return 1
 
     key = ",".join(map(str, counts))
+    unchanged = False
     if OUT.exists():
         m = re.search(r'data-counts="([\d,]+)"', OUT.read_text(encoding="utf-8"))
-        if m and m.group(1) == key:
-            print(f"Counts unchanged ({key}); nothing to do.")
-            return 0
+        unchanged = bool(m and m.group(1) == key)
 
-    date = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(render(*counts, date), encoding="utf-8")
-    print(f"Updated {OUT.name}: stars/forks/watchers = {key}")
+    if unchanged:
+        print(f"Counts unchanged ({key}); SVG left as is.")
+    else:
+        date = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+        OUT.parent.mkdir(parents=True, exist_ok=True)
+        OUT.write_text(render(*counts, date), encoding="utf-8")
+        print(f"Updated {OUT.name}: stars/forks/watchers = {key}")
+
+    sync_readme(key)
     return 0
 
 
