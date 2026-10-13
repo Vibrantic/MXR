@@ -43,10 +43,10 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/screen1.png" alt="MXR screenshot 1" width="100%" />
+  <img src="screenshots/screen1.png" alt="MXR screenshot 1" width="65%" />
 </p>
 <p align="center">
-  <img src="screenshots/screen2.png" alt="MXR screenshot 2" width="100%" />
+  <img src="screenshots/screen2.png" alt="MXR screenshot 2" width="65%" />
 </p>
 
 <p align="center">
