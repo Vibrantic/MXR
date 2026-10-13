@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dumgxef6c8mur"]
 
-[ext_resource type="Script" uid="uid://odllwgoan5du" path="res://BootManager.gd" id="1_avt2f"]
-[ext_resource type="FontFile" uid="uid://cfhd04ntqhc43" path="res://assets/font/ShareTechMono-Regular.ttf" id="2_xd2k0"]
+[ext_resource type="Script" uid="uid://odllwgoan5du" path="res://Assets/scripts/BootManager.gd" id="1_avt2f"]
+[ext_resource type="FontFile" uid="uid://cfhd04ntqhc43" path="res://Assets/font/ShareTechMono-Regular.ttf" id="2_xd2k0"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_usv0l"]
 bg_color = Color(0, 0, 0, 1)

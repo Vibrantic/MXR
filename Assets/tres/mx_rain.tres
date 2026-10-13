@@ -1,7 +1,7 @@
 [gd_resource type="ShaderMaterial" format=3 uid="uid://behypwjfqene2"]
 
-[ext_resource type="Shader" uid="uid://ryhywvblkhie" path="res://mx_rain.gdshader" id="1_km04s"]
-[ext_resource type="Texture2D" uid="uid://ok01os5brn7j" path="res://assets/textures/mx_atlas.png" id="2_orxdt"]
+[ext_resource type="Shader" uid="uid://ryhywvblkhie" path="res://Assets/shader/mx_rain.gdshader" id="1_km04s"]
+[ext_resource type="Texture2D" uid="uid://ok01os5brn7j" path="res://Assets/textures/mx_atlas.png" id="2_orxdt"]
 
 [resource]
 shader = ExtResource("1_km04s")

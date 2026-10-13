@@ -13,7 +13,6 @@ config_version=5
 config/name="MXR"
 run/main_scene="uid://dekbgv2ukqopx"
 config/features=PackedStringArray("4.7", "Forward Plus")
-config/icon="res://icon.svg"
 
 [display]
 

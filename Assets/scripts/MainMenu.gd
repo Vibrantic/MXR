@@ -90,7 +90,7 @@ func _force_focus():
 
 func load_commands():
 
-	var path := "res://data/commands.json"
+	var path := "res://Assets/json/commands.json"
 
 	if !FileAccess.file_exists(path):
 		push_error("commands.json not found")

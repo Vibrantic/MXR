@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://dekbgv2ukqopx"]
 
-[ext_resource type="Material" uid="uid://behypwjfqene2" path="res://mx_rain.tres" id="1_06t4h"]
-[ext_resource type="Script" uid="uid://d3hkr4ik37mgm" path="res://main_menu.gd" id="1_nlkkf"]
-[ext_resource type="FontFile" uid="uid://cfhd04ntqhc43" path="res://assets/font/ShareTechMono-Regular.ttf" id="2_7vrkn"]
-[ext_resource type="AudioStream" uid="uid://cmaxsfcx0hn2f" path="res://assets/audio/klick.ogg" id="2_8qtwp"]
-[ext_resource type="FontFile" uid="uid://b3bqttikf2c0w" path="res://assets/font/Orbitron-VariableFont_wght.ttf" id="2_fu7sn"]
-[ext_resource type="AudioStream" uid="uid://k3nerow14jlp" path="res://assets/audio/KnockKnock.ogg" id="3_dy7ct"]
-[ext_resource type="StyleBox" uid="uid://dds1ax8c3amh8" path="res://assets/theme_overrides/green_line_horizontal.tres" id="3_glbon"]
-[ext_resource type="StyleBox" uid="uid://yekst2xnq8gr" path="res://assets/theme_overrides/green_line_vertical.tres" id="5_nlkkf"]
+[ext_resource type="Script" uid="uid://d3hkr4ik37mgm" path="res://Assets/scripts/MainMenu.gd" id="1_yhxw7"]
+[ext_resource type="AudioStream" uid="uid://cmaxsfcx0hn2f" path="res://Assets/audio/klick.ogg" id="2_trj04"]
+[ext_resource type="AudioStream" uid="uid://k3nerow14jlp" path="res://Assets/audio/KnockKnock.ogg" id="3_16hvj"]
+[ext_resource type="Material" uid="uid://behypwjfqene2" path="res://Assets/tres/mx_rain.tres" id="4_yhxw7"]
+[ext_resource type="FontFile" uid="uid://b3bqttikf2c0w" path="res://Assets/font/Orbitron-VariableFont_wght.ttf" id="5_t1dhk"]
+[ext_resource type="StyleBox" uid="uid://dds1ax8c3amh8" path="res://Assets/theme_overrides/green_line_horizontal.tres" id="6_5egv6"]
+[ext_resource type="FontFile" uid="uid://cfhd04ntqhc43" path="res://Assets/font/ShareTechMono-Regular.ttf" id="7_vtepg"]
+[ext_resource type="StyleBox" uid="uid://yekst2xnq8gr" path="res://Assets/theme_overrides/green_line_vertical.tres" id="8_8dnnj"]
 
 [sub_resource type="Environment" id="Environment_usv0l"]
 glow_enabled = true
@@ -55,9 +55,9 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_nlkkf")
-click_sound = ExtResource("2_8qtwp")
-knock_sound = ExtResource("3_dy7ct")
+script = ExtResource("1_yhxw7")
+click_sound = ExtResource("2_trj04")
+knock_sound = ExtResource("3_16hvj")
 click_volume_db = -20.0
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1947760078]
@@ -79,7 +79,7 @@ size_2d_override_stretch = true
 render_target_update_mode = 4
 
 [node name="ColorRect" type="ColorRect" parent="SubViewportContainer/SubViewport" unique_id=337178029]
-material = ExtResource("1_06t4h")
+material = ExtResource("4_yhxw7")
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -121,7 +121,7 @@ layout_mode = 2
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_colors/font_color = Color(0, 1, 0, 1)
-theme_override_fonts/font = ExtResource("2_fu7sn")
+theme_override_fonts/font = ExtResource("5_t1dhk")
 theme_override_font_sizes/font_size = 14
 text = "Terminal"
 
@@ -129,13 +129,13 @@ text = "Terminal"
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_colors/font_color = Color(0, 1, 0, 1)
-theme_override_fonts/font = ExtResource("2_fu7sn")
+theme_override_fonts/font = ExtResource("5_t1dhk")
 theme_override_font_sizes/font_size = 14
 text = "News"
 
 [node name="HSeparator2" type="HSeparator" parent="p_MainTerminal/vb_Terminal" unique_id=342112427]
 layout_mode = 2
-theme_override_styles/separator = ExtResource("3_glbon")
+theme_override_styles/separator = ExtResource("6_5egv6")
 
 [node name="hb_Consol_and_News" type="HBoxContainer" parent="p_MainTerminal/vb_Terminal" unique_id=605444375]
 layout_mode = 2
@@ -149,7 +149,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 focus_mode = 2
 theme_override_colors/default_color = Color(0, 1, 0, 1)
-theme_override_fonts/normal_font = ExtResource("2_7vrkn")
+theme_override_fonts/normal_font = ExtResource("7_vtepg")
 theme_override_font_sizes/normal_font_size = 12
 theme_override_font_sizes/bold_font_size = 12
 theme_override_font_sizes/bold_italics_font_size = 12
@@ -159,7 +159,7 @@ selection_enabled = true
 
 [node name="VSeparator" type="VSeparator" parent="p_MainTerminal/vb_Terminal/hb_Consol_and_News" unique_id=2011407068]
 layout_mode = 2
-theme_override_styles/separator = ExtResource("5_nlkkf")
+theme_override_styles/separator = ExtResource("8_8dnnj")
 
 [node name="vb_News" type="VBoxContainer" parent="p_MainTerminal/vb_Terminal/hb_Consol_and_News" unique_id=801693075]
 layout_mode = 2
@@ -169,7 +169,7 @@ size_flags_horizontal = 3
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_colors/default_color = Color(0, 1, 0, 1)
-theme_override_fonts/normal_font = ExtResource("2_7vrkn")
+theme_override_fonts/normal_font = ExtResource("7_vtepg")
 theme_override_font_sizes/normal_font_size = 12
 theme_override_font_sizes/bold_font_size = 12
 theme_override_font_sizes/bold_italics_font_size = 12
@@ -231,7 +231,7 @@ End Transmission."
 [node name="le_UserInput" type="LineEdit" parent="p_MainTerminal/vb_Terminal" unique_id=789356258]
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 1, 0, 1)
-theme_override_fonts/font = ExtResource("2_7vrkn")
+theme_override_fonts/font = ExtResource("7_vtepg")
 theme_override_font_sizes/font_size = 12
 theme_override_styles/normal = SubResource("StyleBoxFlat_nlkkf")
 theme_override_styles/focus = SubResource("StyleBoxFlat_glbon")
