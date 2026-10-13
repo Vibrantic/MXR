@@ -1,4 +1,4 @@
-name: Update dashboard
+_name: Update dashboard
 
 on:
   schedule:
@@ -25,16 +25,16 @@ jobs:
       - name: Regenerate dashboard.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/generate_dashboard.py
+        run: python readme_scripts/generate_dashboard.py
 
       - name: Commit if changed
         run: |
-          if [ -z "$(git status --porcelain assets/dashboard.svg)" ]; then
+          if [ -z "$(git status --porcelain readme/dashboard.svg)" ]; then
             echo "No changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/dashboard.svg
+          git add readme/dashboard.svg
           git commit -m "chore: update dashboard metrics"
           git push
