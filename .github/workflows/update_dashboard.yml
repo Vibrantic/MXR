@@ -1,4 +1,4 @@
-_name: Update dashboard
+name: Update dashboard
 
 on:
   schedule:
