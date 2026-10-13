@@ -1,5 +1,3 @@
-<h1 align="center">MXR</h1>
-
 <table align="center">
   <thead>
     <tr>
@@ -26,6 +24,8 @@
     </tr>
   </tbody>
 </table>
+
+---
 
 <p align="center">
   <img src="readme/header.svg" alt="MXR status terminal" />
