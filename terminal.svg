@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="230" viewBox="0 0 640 230">
+  <defs>
+    <filter id="glow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="636" height="226" rx="6" fill="#0d1117" stroke="#00ff66" stroke-width="1" filter="url(#glow)"/>
+  <g font-family="'Courier New', Consolas, monospace" font-size="15" fill="#00ff66">
+    <text x="20" y="35" font-weight="bold">📡 [INCOMING ENCRYPTED TRANSMISSION]</text>
+    <text x="20" y="62">SOURCE  : ROGAN</text>
+    <text x="20" y="82">CHANNEL : SECURE</text>
+    <text x="20" y="102">STATUS  : VERIFIED</text>
+    <line x1="20" y1="116" x2="620" y2="116" stroke="#00ff66" stroke-dasharray="4 4"/>
+    <text x="20" y="142" font-style="italic">"The System survives because people never question it.</text>
+    <text x="20" y="162" font-style="italic"> You did. Now let's find the others."</text>
+    <line x1="20" y1="176" x2="620" y2="176" stroke="#00ff66" stroke-dasharray="4 4"/>
+    <text x="20" y="202" opacity="0.8">[CONNECTION TERMINATED]<tspan>█</tspan>
+      <animate attributeName="opacity" values="0.8;0.8;0.2;0.2" dur="1.2s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
