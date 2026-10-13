@@ -1,12 +1,12 @@
 [gd_scene format=3 uid="uid://dekbgv2ukqopx"]
 
 [ext_resource type="Script" uid="uid://d3hkr4ik37mgm" path="res://Assets/scripts/MainMenu.gd" id="1_yhxw7"]
-[ext_resource type="AudioStream" uid="uid://cmaxsfcx0hn2f" path="res://Assets/audio/klick.ogg" id="2_trj04"]
-[ext_resource type="AudioStream" uid="uid://k3nerow14jlp" path="res://Assets/audio/KnockKnock.ogg" id="3_16hvj"]
+[ext_resource type="AudioStream" uid="uid://3o5ebww0fc5y" path="res://Assets/audio/klick.ogg" id="2_trj04"]
+[ext_resource type="AudioStream" uid="uid://b4kibk4d01800" path="res://Assets/audio/KnockKnock.ogg" id="3_16hvj"]
 [ext_resource type="Material" uid="uid://behypwjfqene2" path="res://Assets/tres/mx_rain.tres" id="4_yhxw7"]
-[ext_resource type="FontFile" uid="uid://b3bqttikf2c0w" path="res://Assets/font/Orbitron-VariableFont_wght.ttf" id="5_t1dhk"]
+[ext_resource type="FontFile" uid="uid://dhh0tuf7oai64" path="res://Assets/font/Orbitron-VariableFont_wght.ttf" id="5_t1dhk"]
 [ext_resource type="StyleBox" uid="uid://dds1ax8c3amh8" path="res://Assets/theme_overrides/green_line_horizontal.tres" id="6_5egv6"]
-[ext_resource type="FontFile" uid="uid://cfhd04ntqhc43" path="res://Assets/font/ShareTechMono-Regular.ttf" id="7_vtepg"]
+[ext_resource type="FontFile" uid="uid://lf63i6mnayvy" path="res://Assets/font/ShareTechMono-Regular.ttf" id="7_vtepg"]
 [ext_resource type="StyleBox" uid="uid://yekst2xnq8gr" path="res://Assets/theme_overrides/green_line_vertical.tres" id="8_8dnnj"]
 
 [sub_resource type="Environment" id="Environment_usv0l"]
