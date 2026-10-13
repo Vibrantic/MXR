@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="456" viewBox="0 0 720 456" role="img" aria-label="status">
+  <defs>
+    <filter id="glow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect x="2" y="2" width="716" height="452" rx="8"/></clipPath>
+  </defs>
+  <rect x="2" y="2" width="716" height="452" rx="8" fill="#0d1117" stroke="#00ff66" stroke-width="1" filter="url(#glow)"/>
+  <g clip-path="url(#clip)">
+    <rect x="2" y="2" width="716" height="36" fill="#0a2614"/>
+    <line x1="2" y1="38" x2="718" y2="38" stroke="#00ff66" stroke-opacity="0.5"/>
+  </g>
+  <circle cx="22" cy="20" r="5" fill="#00ff66"/>
+  <circle cx="40" cy="20" r="5" fill="#00a844"/>
+  <circle cx="58" cy="20" r="5" fill="#00611f"/>
+  <text x="360.0" y="25" text-anchor="middle" font-family="'Courier New', Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#00cc52">status</text>
+  <g font-family="'Courier New', Consolas, 'DejaVu Sans Mono', monospace" font-size="14">
+    <text x="24" y="70"><tspan fill="#00913a">operator@lindos:~$ </tspan><tspan fill="#00ff66">mxr --status</tspan></text>
+    <text x="24" y="91" fill="#00ff66" font-weight="bold">STATUS: ALPHA 0.1</text>
+    <text x="24" y="133" fill="#00ff66" font-weight="bold">[x] Core Terminal Framework</text>
+    <text x="24" y="154" fill="#00ff66" font-weight="bold">[x] Command System</text>
+    <text x="24" y="175" fill="#00ff66" font-weight="bold">[x] LindOS Boot Sequence</text>
+    <text x="24" y="196" fill="#00ff66" font-weight="bold">[x] BIOS &amp; Boot Manager</text>
+    <text x="24" y="217" fill="#00ff66" font-weight="bold">[x] Main Menu Terminal</text>
+    <text x="24" y="259" fill="#00913a">[ ] Mission System</text>
+    <text x="24" y="280" fill="#00913a">[ ] Save System</text>
+    <text x="24" y="301" fill="#00913a">[ ] Network Simulation</text>
+    <text x="24" y="322" fill="#00913a">[ ] Story Campaign</text>
+    <text x="24" y="343" fill="#00913a">[ ] Email System</text>
+    <text x="24" y="364" fill="#00913a">[ ] Modding Toolkit</text>
+    <text x="24" y="385" fill="#00913a">[ ] Achievement System</text>
+    <text x="24" y="427" fill="#00913a">operator@lindos:~$ </text>
+    <rect x="183.6" y="414" width="9" height="16" fill="#00ff66"><animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>

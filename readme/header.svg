@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="435" viewBox="0 0 720 435" role="img" aria-label="mxr@lindos: ~/MXR">
+  <defs>
+    <filter id="glow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect x="2" y="2" width="716" height="431" rx="8"/></clipPath>
+  </defs>
+  <rect x="2" y="2" width="716" height="431" rx="8" fill="#0d1117" stroke="#00ff66" stroke-width="1" filter="url(#glow)"/>
+  <g clip-path="url(#clip)">
+    <rect x="2" y="2" width="716" height="36" fill="#0a2614"/>
+    <line x1="2" y1="38" x2="718" y2="38" stroke="#00ff66" stroke-opacity="0.5"/>
+  </g>
+  <circle cx="22" cy="20" r="5" fill="#00ff66"/>
+  <circle cx="40" cy="20" r="5" fill="#00a844"/>
+  <circle cx="58" cy="20" r="5" fill="#00611f"/>
+  <text x="360.0" y="25" text-anchor="middle" font-family="'Courier New', Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#00cc52">mxr@lindos: ~/MXR</text>
+  <g font-family="'Courier New', Consolas, 'DejaVu Sans Mono', monospace" font-size="14">
+    <text x="24" y="70"><tspan fill="#00913a">operator@lindos:~$ </tspan><tspan fill="#00ff66">lindos --status</tspan></text>
+    <text x="24" y="91" fill="#00ff66" font-weight="bold"> __  __ __  __ ____  </text>
+    <text x="24" y="112" fill="#00ff66" font-weight="bold">|  \/  |\ \/ /|  _ \ </text>
+    <text x="24" y="133" fill="#00ff66" font-weight="bold">| |\/| | \  / | |_) |</text>
+    <text x="24" y="154" fill="#00ff66" font-weight="bold">| |  | | /  \ |  _ &lt; </text>
+    <text x="24" y="175" fill="#00ff66" font-weight="bold">|_|  |_|/_/\_\|_| \_\ </text>
+    <text x="24" y="217" fill="#00913a">------------------------------------------------------------</text>
+    <text x="24" y="238" fill="#00cc52">SYSTEM      : MXR Terminal RPG</text>
+    <text x="24" y="259" fill="#00cc52">VERSION     : Alpha 0.0.1</text>
+    <text x="24" y="280" fill="#00cc52">ENGINE      : Godot 4.7.2</text>
+    <text x="24" y="301" fill="#00cc52">LINDOS      : ONLINE</text>
+    <text x="24" y="322" fill="#00cc52">CONNECTION  : ROGAN</text>
+    <text x="24" y="343" fill="#00cc52">STATE       : ACTIVE DEV</text>
+    <text x="24" y="364" fill="#00913a">------------------------------------------------------------</text>
+    <text x="24" y="406" fill="#00913a">operator@lindos:~$ </text>
+    <rect x="183.6" y="393" width="9" height="16" fill="#00ff66"><animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
