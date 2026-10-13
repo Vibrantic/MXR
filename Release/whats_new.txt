@@ -1,0 +1,13 @@
+MXR Alpha v0.0.1
+
+Features:
+- Matrix inspired terminal
+- Save system
+- GitHub auto-updater
+- Custom themes
+
+Known Issues:
+- None
+
+Thank you for playing!
+``
