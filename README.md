@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="readme/ai.svg" alt="AI Usage" />
+</p>
+
+<p align="center">
   <img src="readme/dashboard.svg?v=1-0-1" alt="MXR dashboard" />
 </p>
 
@@ -44,4 +48,8 @@
 
 <p align="center">
   <img src="readme/credits.svg" alt="Credits" />
+</p>
+
+<p align="center">
+  <img src="readme/license.svg" alt="Credits" />
 </p>
